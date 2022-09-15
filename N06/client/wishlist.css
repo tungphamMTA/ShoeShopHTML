@@ -1,0 +1,14 @@
+.wishlist-area .container .col-sm-3 {
+    width: 12%;
+}
+
+
+.wishlist-content .table-responsive img {
+    width: 100px;
+}
+.wishlist-content .table-responsive .text-center {
+    width: 100px;
+}
+.wishlist-content .table-responsive .img-column {
+    width: 100px;
+}

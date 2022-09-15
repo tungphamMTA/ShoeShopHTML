@@ -1,0 +1,30 @@
+.container .row .search-box {
+    background-color: #fff;
+    overflow: hidden;
+    padding: 0 40px;
+    position: relative; 
+}
+.container .row .search-box input {
+    border: 1px solid black;
+    font-size: 12px;
+    height: 48px;
+    padding-left: 20px;
+    padding-right: 40px;
+    width: 100%;
+    margin-top: 2px;
+}
+.container .row .search-box button {
+    background-color: transparent;
+    border: 0 none;
+    color: #000;
+    height: 48px;
+    margin-left: -35px;
+    position: absolute;
+    width: 35px;
+}
+.footer-top-area .col-md-3 {
+    width: 33.333333333%;
+}
+.cart-menu .cart-info .cart-img {
+    width: 100px;
+}

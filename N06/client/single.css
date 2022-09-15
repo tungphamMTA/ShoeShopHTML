@@ -1,0 +1,95 @@
+.select-catagory .size-select,
+ .select-catagory .color-select{
+  top:50%;
+  left:50%;
+}
+
+.select-catagory .size-select input[type="radio"],
+ .select-catagory .color-select input[type="radio"]
+{
+  display: none;
+}
+.select-catagory .size-select label,
+ .select-catagory .color-select label{
+  position: relative;
+  color:gray;
+  font-family: 'Poppins',sans-serif;
+  font-size:15px;
+  border:2px solid rgb(155, 155, 155);
+  border-radius:5px ;
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  align-items:center;
+cursor: pointer;
+justify-content: flex-end;
+flex-direction: row;
+float:left;
+margin:5px;
+
+}
+
+.select-catagory .size-select label:before,
+ .select-catagory .color-select  label:before{
+  position: absolute;
+  content:"";
+  height:30px;
+  width:30px;
+  border:3px solid rgb(155, 155, 155);
+  border-radius:50% ;
+  margin-right:20px;
+  visibility: hidden;
+}
+.select-catagory .size-select input[type="radio"]:checked + label,
+ .select-catagory .color-select input[type="radio"]:checked + label{
+ 
+  background-color: #01cc65;
+  color:white;
+  background: url(//theme.hstatic.net/1000061481/1000738531/14/select-pro.png?v=234);
+  background-repeat: no-repeat;
+  background-position:bottom right;
+	background-size:20px 20px;
+  color:gray;
+  border-color: red;
+  }
+  
+.select-catagory .size-select input[type="radio"]:checked + label:before,
+ .select-catagory .color-select input[type="radio"]:checked + label:before{
+  height:16px;
+  width:16px;
+  border:10px;
+  background-color: #01cc65;
+  }
+  .select-catagory .color-select .blue,
+  .select-catagory .color-select input[type="radio"]#color_01:checked + label{
+ 
+    background-color: blue;
+    color:white;
+    
+    background-repeat: no-repeat;
+    background-position:bottom right;
+    background-size:20px 20px;
+    }
+    .select-catagory .color-select .black,
+  .select-catagory .color-select input[type="radio"]#color_02:checked + label{
+ 
+    background-color: black;
+    color:white;  
+    background-repeat: no-repeat;
+    background-position:bottom right;
+    background-size:20px 20px;
+    }
+    .select-catagory .color-select .pink,
+  .select-catagory .color-select input[type="radio"]#color_03:checked + label{
+ 
+    background-color: pink;
+    color:white;
+    background-repeat: no-repeat;
+    background-position:bottom right;
+    background-size:20px 20px;
+
+    }
+    .select-catagory .color-select input[type="radio"]:checked + label{
+ 
+      
+      border-color:white;
+      }

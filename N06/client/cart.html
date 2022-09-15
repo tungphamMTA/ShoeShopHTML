@@ -1,0 +1,660 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title> Cart || Sneaker Store </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- favicon
+        ============================================ -->
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+        <!-- Google Fonts
+        ============================================ -->
+        <link href='https://fonts.googleapis.com/css?family=Norican' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <!-- Bootstrap CSS
+        ============================================ -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Bootstrap CSS
+        ============================================ -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- owl.carousel CSS
+        ============================================ -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        <link rel="stylesheet" href="css/owl.transitions.css">
+        <!-- jquery-ui CSS
+        ============================================ -->
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <!-- meanmenu CSS
+        ============================================ -->
+        <link rel="stylesheet" href="css/meanmenu.min.css">
+        <!-- nivoslider CSS
+        ============================================ -->
+        <link rel="stylesheet" href="lib/css/nivo-slider.css">
+        <link rel="stylesheet" href="lib/css/preview.css">
+        <!-- animate CSS
+        ============================================ -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- magic CSS
+        ============================================ -->
+        <link rel="stylesheet" href="css/magic.css">
+        <!-- normalize CSS
+        ============================================ -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- main CSS
+        ============================================ -->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- style CSS
+        ============================================ -->
+        <link rel="stylesheet" href="style.css">
+        <!-- responsive CSS
+        ============================================ -->
+        <link rel="stylesheet" href="css/responsive.css">
+        <!-- cart CSS
+        ============================================ -->
+        <link rel="stylesheet" href="cart.css">
+        <!-- modernizr JS
+        ============================================ -->
+        <script src="js/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <!-- header area start -->
+        <header>
+            <div class="top-link">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 col-md-offset-3 col-sm-9 hidden-xs">
+                            <div class="search-box">
+                                <form action="#">
+                                    <input type="text">
+                                    <button type="submit">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-3">
+                            <div class="dashboard">
+                                <div class="account-menu">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-bars"></i>
+                                            </a>
+                                            <ul>
+                                                <li><a href="my-account.html">my account</a></li>
+                                                <li><a href="wishlist.html">my wishlist</a></li>
+                                                <li><a href="cart.html">my cart</a></li>
+                                                <li><a href="checkout.html">Checkout</a></li>
+                                                <li><a href="dashtreme-master/login.html">Log in</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="cart-menu">
+                                    <ul>
+                                        <li><a href="#"> <img src="https://template.hasthemes.com/james/james/img/icon-cart.png" alt=""> <span>2</span> </a>
+                                            <div class="cart-info">
+                                                <ul>
+                                                    <li>
+                                                        <div class="cart-img">
+                                                            <img src="/ShoesShop/img/vans-SK8-Hi_1.jpg" alt="">
+                                                        </div>
+                                                        <div class="cart-details">
+                                                            <a href="#">Vans SK8-Hi</a>
+                                                            <p>1 x $174.00</p>
+                                                        </div>
+                                                        <div class="btn-edit"></div>
+                                                        <div class="btn-remove"></div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="cart-img">
+                                                            <img src="/ShoesShop/img/Traye photos/Venice-Zero-B_W-Suede-1.jpg" alt="">
+                                                        </div>
+                                                        <div class="cart-details">
+                                                            <a href="#">Straye Venice-Zero</a>
+                                                            <p>1 x $277.00</p>
+                                                        </div>
+                                                        <div class="btn-edit"></div>
+                                                        <div class="btn-remove"></div>
+                                                    </li>
+                                                </ul>
+                                                <h3>Subtotal: <span> $451.00</span></h3>
+                                                <a href="checkout.html" class="checkout">checkout</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainmenu-area product-items">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="https://template.hasthemes.com/james/james/img/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="mainmenu">
+                                <nav>
+                                    <ul>
+                                        <li><a href="index.html">Home</a>
+                                        </li>
+                                        <li class="mega-men"><a href="shop.html">Men</a>
+                                            <div class="mega-menu men">
+                                                <span>
+                                                    <a href="shop.html">Nike</a>
+                                                    <a href="shop.html">Jordan</a>
+                                                    <a href="shop.html">Air Max</a>
+                                                    <a href="shop.html">Huarache</a>
+                                                    <a href="shop.html">Cortez</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#shop.html">Adidas</a>
+                                                    <a href="shop.html">NMD</a>
+                                                    <a href="shop.html">Kapter</a>
+                                                    <a href="shop.html">Stansmith</a>
+                                                    <a href="shop.html">Ultra boost</a>
+                                                </span>
+                                                <span>
+                                                    <a href="shop.html">Vans</a>
+                                                    <a href="shop.html">Old skool</a>
+                                                    <a href="shop.html">Era</a>
+                                                    <a href="shop.html">Slip-On</a>
+                                                    <a href="shop.html">SK8 Hi</a>
+                                                </span>
+                                                <span>
+                                                    <a href="shop.html">Converse</a>
+                                                    <a href="shop.html">Chuck Taylor All star</a>
+                                                    <a href="shop.html">Chuck Taylor 1970s</a>
+                                                    <a href="shop.html">Chuck Taylor II</a>
+                                                    <a href="shop.html">Jack Purcell</a>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="mega-women"><a href="shop.html">Women</a>
+                                            <div class="mega-menu women">
+                                                <span>
+                                                    <a href="shop.html">Nike</a>
+                                                    <a href="shop.html">Jordan</a>
+                                                    <a href="shop.html">Air Max</a>
+                                                    <a href="shop.html">Huarache</a>
+                                                    <a href="#shop.html">Cortez</a>
+                                                </span>
+                                                <span>
+                                                    <a href="shop.html">Adidas</a>
+                                                    <a href="shop.html">NMD</a>
+                                                    <a href="shop.html">Kapter</a>
+                                                    <a href="shop.html">Stansmith</a>
+                                                    <a href="shop.html">Ultra boost</a>
+                                                </span>
+                                                <span>
+                                                    <a href="shop.html">Vans</a>
+                                                    <a href="shop.html">Old skool</a>
+                                                    <a href="shop.html">Era</a>
+                                                    <a href="shop.html">Slip-On</a>
+                                                    <a href="shop.html">SK8 Hi</a>
+                                                </span>
+                                                <span>
+                                                    <a href="shop.html">Converse</a>
+                                                    <a href="shop.html">Chuck Taylor All star</a>
+                                                    <a href="shop.html">Chuck Taylor 1970s</a>
+                                                    <a href="shop.html">Chuck Taylor II</a>
+                                                    <a href="shop.html">Jack Purcell</a>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">Pages</a>
+                                            <div class="sub-menu pages">
+                                                <span>
+                                                    <a href="about-us.html">About us</a>
+                                                </span>
+                                                <span>
+                                                    <a href="cart.html">Cart</a>
+                                                </span>
+                                                <span>
+                                                    <a href="checkout.html">Checkout</a>
+                                                </span>
+                                                <span>
+                                                    <a href="my-account.html">My account</a>
+                                                </span>
+                                                <span>
+                                                    <a href="shop.html">Shop</a>
+                                                </span>
+                                                <span>
+                                                    <a href="single-product.html">Single Shop</a>
+                                                </span>
+                                                <span>
+                                                    <a href="dashtreme-master/login.html">Login page</a>
+                                                </span>
+                                                <span>
+                                                    <a href="dashtreme-master/register.html">Ragister page</a>
+                                                </span>
+                                                <span>
+                                                    <a href="wishlist.html">Wishlist</a>
+                                                </span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="mobile-menu">
+                                <nav>
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="shop.html">Men</a>
+                                            <ul>
+                                                <li><a href="#">Nike</a>
+                                                    <ul>
+                                                        <li><a href="#">Jordan</a></li>
+                                                        <li><a href="#">Air Max</a></li>
+                                                        <li><a href="#">Huarache</a></li>
+                                                        <li><a href="#">Cortez</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Adidas</a>
+                                                    <ul>
+                                                        <li><a href="#">NMD</a></li>
+                                                        <li><a href="#">Kapter</a></li>
+                                                        <li><a href="#">Stansmith</a></li>
+                                                        <li><a href="#">Ultra boost</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Vans</a>
+                                                    <ul>
+                                                        <li><a href="#">Old Skool</a></li>
+                                                        <li><a href="#">Era</a></li>
+                                                        <li><a href="#">Slip-On</a></li>
+                                                        <li><a href="#">SK8-Hi</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Lining</a>
+                                                    <ul>
+                                                        <li><a href="#">Sport</a></li>
+                                                        <li><a href="#">Jogging</a></li>
+                                                        <li><a href="#">Basketball</a></li>
+                                                        <li><a href="#">Badminton</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="shop.html">Women</a>
+                                            <ul>
+                                                <li><a href="#">Nike</a>
+                                                    <ul>
+                                                        <li><a href="#">Jordan</a></li>
+                                                        <li><a href="#">Air Max</a></li>
+                                                        <li><a href="#">Huarache</a></li>
+                                                        <li><a href="#">Cortez</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Adidas</a>
+                                                    <ul>
+                                                        <li><a href="#">NMD</a></li>
+                                                        <li><a href="#">Kapter</a></li>
+                                                        <li><a href="#">Stansmith</a></li>
+                                                        <li><a href="#">Ultra boost</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Vans</a>
+                                                    <ul>
+                                                        <li><a href="#">Old Skool</a></li>
+                                                        <li><a href="#">Era</a></li>
+                                                        <li><a href="#">Slip-On</a></li>
+                                                        <li><a href="#">SK8-Hi</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Lining</a>
+                                                    <ul>
+                                                        <li><a href="#">Sport</a></li>
+                                                        <li><a href="#">Jogging</a></li>
+                                                        <li><a href="#">Basketball</a></li>
+                                                        <li><a href="#">Badminton</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Pages</a>
+                                            <ul>
+                                                <li><a href="about-us.html">About us</a></li>
+                                                <li><a href="cart.html">Cart</a></li>
+                                                <li><a href="checkout.html">Checkout</a></li>
+                                                <li><a href="my-account.html">My account</a></li>
+                                                <li><a href="shop.html">Shop</a></li>
+                                                <li><a href="single-product.html">Single Shop</a></li>
+                                                <li><a href="wishlist.html">Wishlist</a></li>
+                                                <li><a href="login.html">login page</a></li>
+                                                <li><a href="register.html">register page</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header area end -->
+        <!-- cart item area start -->
+        <div class="shopping-cart">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="location">
+                            <ul>
+                                <li><a href="index.html" title="go to homepage">Home<span>/</span></a>  </li>
+                                <li><strong> Shopping cart</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="table-responsive">
+                            <table class="table-bordered table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th class="cart-item-img"></th>
+                                        <th class="cart-product-name">Product Name</th>
+                                        <th class="edit"></th>
+                                        <th class="move-wishlist">Move to Wishlist</th>
+                                        <th class="unit-price">Unit Price</th>
+                                        <th class="quantity">Qty</th>
+                                        <th class="subtotal">Subtotal</th>
+                                        <th class="remove-icon"></th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-center">
+                                    <tr>
+                                        <td class="cart-item-img">
+                                            <a href="single-product.html">
+                                                <img src="img/vans-SK8-Hi_1.jpg" alt="">
+                                            </a>
+                                        </td>
+                                        <td class="cart-product-name">
+                                            <a href="single-product.html">Vans SK8-Hi</a>
+                                        </td>
+                                        <td class="edit">
+                                            <a href="#">Edit</a>
+                                        </td>
+                                        <td class="move-wishlist">
+                                            <a href="#">Move</a>
+                                        </td>
+                                        <td class="unit-price">
+                                            <span>$174.00</span>
+                                        </td>
+                                        <td class="quantity">
+                                            <span>1</span>
+                                        </td>
+                                        <td class="subtotal">
+                                            <span>$174.00</span>
+                                        </td>
+                                        <td class="remove-icon">
+                                            <a href="#">
+                                                <img src="https://template.hasthemes.com/james/james/img/cart/btn_remove.png" alt="">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="cart-item-img">
+                                            <a href="single-product.html">
+                                                <img src="img/Traye photos/Venice-Zero-B_W-Suede-1.jpg" alt="">
+                                            </a>
+                                        </td>
+                                        <td class="cart-product-name">
+                                            <a href="single-product.html">Straye Vinice-zero</a>
+                                        </td>
+                                        <td class="edit">
+                                            <a href="#">Edit</a>
+                                        </td>
+                                        <td class="move-wishlist">
+                                            <a href="#">Move</a>
+                                        </td>
+                                        <td class="unit-price">
+                                            <span>$277.00</span>
+                                        </td>
+                                        <td class="quantity">
+                                            <span>1</span>
+                                        </td>
+                                        <td class="subtotal">
+                                            <span>$277.00</span>
+                                        </td>
+                                        <td class="remove-icon">
+                                            <a href="#">
+                                                <img src="https://template.hasthemes.com/james/james/img/cart/btn_remove.png" alt="">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="shopping-button">
+                                <div class="continue-shopping">
+                                    <button type="submit">continue shopping</button>
+                                </div>
+                                <div class="shopping-cart-left">
+                                    <button type="submit">Clear Shopping Cart</button>
+                                    <button type="submit">Update Shopping Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="discount-code">
+                            <h3>Discount Codes</h3>
+                            <p>Enter your coupon code if you have one.</p>
+                            <input type="text">
+                            <div class="shopping-button">
+                                <button type="submit">apply coupon</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="estimate-shipping">
+                            <h3>Estimate Shipping and Tax</h3>
+                            <p>Enter your destination to get a shipping estimate.</p>
+                            <form action="#">
+                                <div class="form-box">
+                                    <div class="form-name">
+                                        <label> country <em>*</em> </label>
+                                        <select>
+                                            <option value="1">Afghanistan</option>
+                                            <option value="1">Algeria</option>
+                                            <option value="1">American Samoa</option>
+                                            <option value="1">Australia</option>
+                                            <option value="1">Bangladesh</option>
+                                            <option value="1">Belgium</option>
+                                            <option value="1">Bosnia and Herzegovina</option>
+                                            <option value="1">Chile</option>
+                                            <option value="1">China</option>
+                                            <option value="1">Egypt</option>
+                                            <option value="1">Finland</option>
+                                            <option value="1">France</option>
+                                            <option value="1">United State</option>
+                                            <option value="1">Vietnamese</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-box">
+                                    <div class="form-name">
+                                        <label> State/Province </label>
+                                        <select>
+                                            <option value="1">Please select region, state or province</option>
+                                            <option value="1">Arizona</option>
+                                            <option value="1">Armed Forces Africa</option>
+                                            <option value="1">California</option>
+                                            <option value="1">Florida</option>
+                                            <option value="1">Ha Noi</option>
+                                            <option value="1">Indiana</option>
+                                            <option value="1">Marshall Islands</option>
+                                            <option value="1">Minnesota</option>
+                                            <option value="1">New Mexico</option>
+                                            <option value="1">Utah</option>
+                                            <option value="1">Virgin Islands</option>
+                                            <option value="1">West Virginia</option>
+                                            <option value="1">Wyoming</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-box">
+                                    <div class="form-name">
+                                        <label> Zip/Postal Code </label>
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="shopping-button">
+                                    <button type="submit">get a quote</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="totals">
+                            <p>subtotal <span>$451.00</span> </p>
+                            <h3>Grand Total <span>$456.00</span></h3>
+                            <div class="shopping-button">
+                                <button type="submit">proceed to checkout</button>
+                            </div>
+                            <a href="#">Checkout with Multiple Addresses</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- cart item area end -->
+        <!-- footer top area start -->
+        <div class="footer-top-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                        <div class="footer-contact">
+                            <img src="https://template.hasthemes.com/james/james/img/logo-white.png" alt="">
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+                            <ul class="address">
+                                <li>
+                                    <span class="fa fa-fax"></span>
+                                    0962864513
+                                </li>
+                                <li>
+                                    <span class="fa fa-phone"></span>
+                                    0962864513
+                                </li>
+                                <li>
+                                    <span class="fa fa-envelope-o"></span>
+                                    shoesshop@gmail.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="footer-support">
+                            <div class="footer-title">
+                                <h3>Our support</h3>
+                            </div>
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="#">Sitemap</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Your Account</a></li>
+                                    <li><a href="#">Advanced Search</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="footer-info">
+                            <div class="footer-title">
+                                <h3>Our information</h3>
+                            </div>
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="about-us.html">About Us</a></li>
+                                    <li><a href="#">Customer Service</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Orders and Returns</a></li>
+                                    <li><a href="#">Site Map</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer top area end -->
+        <!-- footer area start -->
+        <footer class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="footer-copyright">
+                            <p>Copyright &copy; 2021 <a href="#"> Bootexperts</a>. All Rights Reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="payment-icon">
+                            <img src="https://template.hasthemes.com/james/james/img/payment.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" id="scrollUp"><i class="fa fa fa-arrow-up"></i></a>
+        </footer>
+        <!-- footer area end -->
+        <!-- jquery
+        ============================================ -->
+        <script src="js/jquery-1.12.4.min.js"></script>
+        <!-- bootstrap JS
+        ============================================ -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- wow JS
+        ============================================ -->
+        <script src="js/wow.min.js"></script>
+        <!-- price-slider JS
+        ============================================ -->
+        <script src="js/jquery-price-slider.js"></script>
+        <!-- nivoslider JS
+        ============================================ -->
+        <script src="lib/js/jquery.nivo.slider.js"></script>
+        <script src="lib/home.js"></script>
+        <!-- meanmenu JS
+        ============================================ -->
+        <script src="js/jquery.meanmenu.js"></script>
+        <!-- owl.carousel JS
+        ============================================ -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- elevatezoom JS
+        ============================================ -->
+        <script src="js/jquery.elevatezoom.js"></script>
+        <!-- scrollUp JS
+        ============================================ -->
+        <script src="js/jquery.scrollUp.min.js"></script>
+        <!-- plugins JS
+        ============================================ -->
+        <script src="js/plugins.js"></script>
+        <!-- main JS
+        ============================================ -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
